@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+}
+
+.item-wrapper {
+    display: flex;
+     margin-left: 245px;
+     margin-top: 93px;
+     width: 465px;
+     height: 465px;
+    background: linear-gradient(180deg, #9DFF95 0%, #5BC4FF 100%);
+    border-radius: 70px;
+
+}
+.item-img-wrapper {
+    
+    margin: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 285px;
+   
+    
+}
+
+
+
+.title {
+    margin-left: 890px;
+    margin-top:-360px;
+}
+.Smart-watch {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 69.75px;
+}
+.perfect-health {
+    font-weight: 500;
+    size: 18px;
+    line-height: 21.42px;
+}
+.buy-wrapper {
+    margin-top: 52px;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 22px 70px;
+gap: 10px;
+
+width: 216px;
+height: 65px;
+
+background: #000000;
+border-radius: 100px;
+}
+
+.buy-now {
+   
+width: 76px;
+height: 21px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
